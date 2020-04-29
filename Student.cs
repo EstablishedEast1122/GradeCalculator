@@ -8,5 +8,7 @@ namespace PracticeExam
     {
         public string Name;
         public List<GradeList> Grades;
+        
     }
+
 }

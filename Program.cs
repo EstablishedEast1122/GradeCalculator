@@ -14,6 +14,8 @@ namespace PracticeExam
 
             List<Student> students = new List<Student>();
 
+            List<int> allGrades = new List<int>();
+
             foreach(string line in contents)
             {
 
@@ -34,15 +36,11 @@ namespace PracticeExam
                     GradeList gradeList = new GradeList();
                     gradeList.grade = indvGrade;
                     student.Grades.Add(gradeList);
-
-
-                    //double[] numGrades = Array.ConvertAll(strGrade, x => double.Parse(x));
+                    allGrades.Add(indvGrade);
                 }
 
                 students.Add(student);
-                //string array into int32 array
-                //double[] numGrades = Array.ConvertAll(strGrades, x => double.Parse(x));
-
+               
                 int numofF = 0;
                 int numofD = 0;
                 int numofC = 0;
@@ -98,9 +96,6 @@ namespace PracticeExam
                 double sumOfSquaresOfDifferences = numGrades.Select(val => (val - average) * (val - average)).Sum();
                 double sd = Math.Sqrt(sumOfSquaresOfDifferences / count);
 
-                //checks if numGrades array is a double array
-                //Console.WriteLine($"{numGrades.GetType()}");
-
                 Console.WriteLine($"Count of {student.Name} grades: {count}");
                 Console.WriteLine($"Minimum of {student.Name} grades: {min}");
                 Console.WriteLine($"Maximumn of {student.Name} grades: {max}");
@@ -108,6 +103,25 @@ namespace PracticeExam
                 Console.WriteLine($"Standard deviation of {student.Name} grades: {Math.Round(sd, 2)}");
                 Console.WriteLine();
             }
+
+            //This will perform the same statistics but for the whole class
+            foreach(int num in allGrades)
+            {
+
+                
+            }
+            Stats(allGrades);
+            
+            double[] Stats(List<int> vs)
+            {
+                double[] arrayOfStats = new double[] {vs.Min(), vs.Max(), vs.Average()};
+                Console.WriteLine(arrayOfStats[0]);
+                Console.WriteLine(arrayOfStats[1]);
+                Console.WriteLine(Math.Round(arrayOfStats[2], 2));
+                return arrayOfStats;
+                
+            }
+            //Console.WriteLine(Stats(allGrades));
         }
     }
 }

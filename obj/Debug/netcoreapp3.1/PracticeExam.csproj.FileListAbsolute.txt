@@ -21,3 +21,15 @@ P:\GradeCalc\obj\Debug\netcoreapp3.1\PracticeExam.AssemblyInfo.cs
 P:\GradeCalc\obj\Debug\netcoreapp3.1\PracticeExam.dll
 P:\GradeCalc\obj\Debug\netcoreapp3.1\PracticeExam.pdb
 P:\GradeCalc\bin\Debug\netcoreapp3.1\Grades.txt
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\Grades.txt
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.exe
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.deps.json
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.runtimeconfig.json
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.runtimeconfig.dev.json
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.dll
+P:\GradeCalculator\bin\Debug\netcoreapp3.1\PracticeExam.pdb
+P:\GradeCalculator\obj\Debug\netcoreapp3.1\PracticeExam.csprojAssemblyReference.cache
+P:\GradeCalculator\obj\Debug\netcoreapp3.1\PracticeExam.AssemblyInfoInputs.cache
+P:\GradeCalculator\obj\Debug\netcoreapp3.1\PracticeExam.AssemblyInfo.cs
+P:\GradeCalculator\obj\Debug\netcoreapp3.1\PracticeExam.dll
+P:\GradeCalculator\obj\Debug\netcoreapp3.1\PracticeExam.pdb

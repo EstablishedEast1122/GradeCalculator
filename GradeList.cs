@@ -4,6 +4,6 @@ namespace PracticeExam
 {
     public class GradeList
     {
-        public int grade;
+        public double grade;
     }
 }

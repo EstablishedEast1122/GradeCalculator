@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "P:\\GradeCalc\\PracticeExam.csproj",
+      "projectUniqueName": "P:\\GradeCalculator\\PracticeExam.csproj",
       "projectName": "PracticeExam",
-      "projectPath": "P:\\GradeCalc\\PracticeExam.csproj",
+      "projectPath": "P:\\GradeCalculator\\PracticeExam.csproj",
       "packagesPath": "C:\\Users\\mbk16101\\.nuget\\packages\\",
-      "outputPath": "P:\\GradeCalc\\obj\\",
+      "outputPath": "P:\\GradeCalculator\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
